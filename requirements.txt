@@ -1,0 +1,9 @@
+flask
+flask-cors
+flask-jwt-extended
+dotenv
+psycopg2
+werkzeug
+requests
+phonenumbers
+pytz

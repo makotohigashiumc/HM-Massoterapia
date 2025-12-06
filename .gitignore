@@ -1,0 +1,9 @@
+# Arquivos sensíveis e de configuração
+.env
+# Node modules e dependências
+node_modules/
+# Arquivos de log e cache
+__pycache__/
+*.pyc
+# Outros arquivos que não devem ser versionados
+view/.env

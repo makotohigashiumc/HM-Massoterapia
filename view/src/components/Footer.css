@@ -1,0 +1,12 @@
+.footer {
+  width: 100%; 
+  text-align: center; 
+  padding: 16px 0 8px 0; 
+  background: #107594; 
+  color: #fff; 
+  font-size: 1rem; 
+  position: static; 
+  left: auto;
+  bottom: auto;
+  z-index: auto;
+}
