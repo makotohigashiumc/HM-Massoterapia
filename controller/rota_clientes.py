@@ -21,7 +21,7 @@ rota_clientes = Blueprint('rota_clientes', __name__)
 # ================================================================
 # ENDPOINT: CONFIRMAÇÃO DE EMAIL
 # ================================================================
-@rota_clientes.route('/api/clientes/confirmar-email/<token>', methods=['POST'])
+@rota_clientes.route('/api/clientes/confirmar-email/<token>', methods=['GET', 'POST'])
 def confirmar_email(token):
     
     from controller.email_api import verify_confirmation_token
